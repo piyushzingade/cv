@@ -59,7 +59,7 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {RESUME_DATA.contact.social.map((social) => (
+              {RESUME_DATA.contact.social.map((social :any) => (
                 <Button
                   key={social.name}
                   className="size-8"
@@ -100,7 +100,7 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
-          {RESUME_DATA.work.map((work) => {
+          {RESUME_DATA.work.map((work :any) => {
             return (
               <Card key={work.company}>
                 <CardHeader>
@@ -111,7 +111,7 @@ export default function Page() {
                       </a>
 
                       <span className="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
+                        {work.badges.map((badge:any) => (
                           <Badge
                             variant="secondary"
                             className="align-middle text-xs"
@@ -140,7 +140,7 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Education</h2>
-          {RESUME_DATA.education.map((education) => {
+          {RESUME_DATA.education.map((education:any) => {
             return (
               <Card key={education.school}>
                 <CardHeader>
@@ -161,7 +161,7 @@ export default function Page() {
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
+            {RESUME_DATA.skills.map((skill:any) => {
               return <Badge key={skill}>{skill}</Badge>;
             })}
           </div>
@@ -170,7 +170,7 @@ export default function Page() {
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.projects.map((project) => {
+            {RESUME_DATA.projects.map((project:any) => {
               return (
                 <ProjectCard
                   key={project.title}
@@ -191,7 +191,7 @@ export default function Page() {
             url: RESUME_DATA.personalWebsiteUrl,
             title: "Personal Website",
           },
-          ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
+          ...RESUME_DATA.contact.social.map((socialMediaLink:any) => ({
             url: socialMediaLink.url,
             title: socialMediaLink.name,
           })),
