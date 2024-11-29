@@ -32,7 +32,7 @@ export default function SocialDock() {
         {/* Email Icon */}
         <DockIcon>
           <a
-            href="mailto:rbh97995.com"
+            href="mailto:piyushzingade.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -69,7 +69,7 @@ export default function SocialDock() {
         {/* GitHub Icon */}
         <DockIcon>
           <a
-            href="https://github.com/wraith2009"
+            href="https://github.com/piyushzingade"
             target="_blank"
             rel="noopener noreferrer"
           >
