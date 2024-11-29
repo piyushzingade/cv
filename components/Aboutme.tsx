@@ -52,7 +52,7 @@ const About = () => {
           img="/grid 3.avif"
           imgClassName="w-full h-full"
           description="I am always looking to collaborate on new and exciting projects. Whether it is for technical expertise or creative solutions, I am ready to contribute."
-          href="https://x.com/WGaming28441"
+          href="https://x.com/ZingadePiyush"
           cta="Contact Me"
         />
 
@@ -67,7 +67,7 @@ const About = () => {
           img="/grid5.avif"
           imgClassName="w-full h-full"
           description="Feel free to reach out via email if you want to hire me or collaborate on a project. Let us create something amazing together!"
-          href="mailto:rbh97995@gmail.com"
+          href="mailto:piyushzingade@gmail.com"
           cta="Send Mail"
         />
       </BentoGrid>
